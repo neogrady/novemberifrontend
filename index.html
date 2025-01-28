@@ -17,6 +17,22 @@
 
     <img src="kiscica.jpg" alt="Kiscica">
 
+    <section class="dobokocka-cont">
+        <p>Dobókocka Imitátor</p>
+        <span id="ertek"></span>
+        <button id="dobni">Dobás</button>
+    </section>
 
+    <script>
+        const dobas = document.querySelector("#dobni")
+        const eredmeny = document.querySelector("#ertek")
+        let dobasErt
+
+        dobas.onclick = function () {
+            dobasErt = Math.floor(Math.random() * 6) + 1
+            eredmeny.innerText = dobasErt
+        }
+
+    </script>
 </body>
 </html>
