@@ -1,0 +1,11 @@
+.dobokocka-cont {
+    align-items: center;
+}
+#dobni {
+    background-color: aquamarine ;
+    color: black;
+    transition: 0.5s;
+}
+#dobni:hover {
+    background-color: rgb(201, 243, 229);
+}
